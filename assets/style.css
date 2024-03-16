@@ -4,11 +4,11 @@
 }
 
 body {
-    background-color: aliceblue;
+    background-color: rgba(250, 171, 246, 0.945);
 }
 
 .header {
-    background-color: rgb(77, 75, 75);
+    background-color: rgba(253, 133, 247, 0.945);
     padding: 20px;
     display: flex;
     flex-direction: row;
@@ -20,7 +20,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     color: rgb(18, 194, 248);
-    background-color: rgba(114, 45, 111, 0.945);
 }
 
 .links {
@@ -36,17 +35,27 @@ body {
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.links li a {
+.links li a { 
     text-decoration: rgb(6, 160, 160);
-    color: rgb(231, 148, 23);
+    color: rgb(23, 231, 231);
 
 }
 
 .links li a:hover {
     text-decoration: rgb(6, 160, 160);
-    color: rgb(41, 214, 25);
+    color: rgb(18, 194, 248);
     
 }
+
+.introduction {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 0;
+    text-align: center;
+    color: rgb(255, 224, 253);
+}
+
+
 
 @media screen and (max-width: 768px) {
     main,
