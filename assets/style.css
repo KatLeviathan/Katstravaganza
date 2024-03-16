@@ -7,6 +7,8 @@ body {
     background-color: rgba(250, 171, 246, 0.945);
 }
 
+
+
 .header {
     background-color: rgba(253, 133, 247, 0.945);
     padding: 20px;
@@ -57,7 +59,43 @@ body {
 
 
 
-@media screen and (max-width: 768px) {
+.about-me {
+    flex: 4;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(250, 171, 246, 0.945);
+  }
+
+.card {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    flex: 0 0 400px;
+}
+
+  .card header {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .card p {
+    text-align: center;
+  }
+
+  .card img {
+    width: 75%;
+  }
+
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+@media screen and (max-width: 1280px) {
     main,
     nav {
       flex-direction: column;
