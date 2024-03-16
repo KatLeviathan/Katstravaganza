@@ -60,7 +60,6 @@ body {
 
 
 .about-me {
-    flex: 4;
     background-color: #fff;
     padding: 20px;
     display: flex;
@@ -79,21 +78,24 @@ body {
 
   .card header {
     padding: 15px;
-    text-align: center;
   }
 
   .card p {
     text-align: center;
+    margin: 5px;
+
   }
 
   .card img {
-    width: 75%;
+    width: 100%;
   }
 
   .card {
-    display: flex;
+    background-color: rgb(18, 194, 248);;
+    text-align: center;
     flex-wrap: wrap;
   }
+
 
 @media screen and (max-width: 1280px) {
     main,
